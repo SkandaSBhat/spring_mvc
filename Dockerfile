@@ -5,7 +5,7 @@ FROM tomcat:9-jdk11-openjdk-slim
 WORKDIR /usr/local/tomcat/webapps/
 
 # Copy the Spring MVC web application WAR file to the webapps directory
-COPY target/my-spring-mvc-app.war /usr/local/tomcat/webapps/
+COPY target/java/com/jsp /usr/local/tomcat/webapps/
 
 # Expose port 8080 for Tomcat
 EXPOSE 8080
