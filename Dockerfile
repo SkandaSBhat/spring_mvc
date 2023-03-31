@@ -1,5 +1,5 @@
 # Use a base image with Java and Maven pre-installed
-FROM maven:3.6.3-openjdk-11-slim
+FROM maven:3-eclipse-temurin-11
 
 # Set the working directory to /app
 WORKDIR /app
